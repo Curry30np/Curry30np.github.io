@@ -2,187 +2,480 @@
 <html>
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
-  
+<title>Hexo</title>
+	<meta charset="utf-8">
+	<meta name="author" content="">
+	<meta name="description" content="Uno HTML5/CSS3 One Page/Signle Page Website Template"/>
 
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="https://Curry30np/Curry30np.github.io/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript" src="js/flexslider.js"></script>
+    <script type="text/javascript" src="js/scrollTo.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
-</html>
 <body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://Curry30np/Curry30np.github.io"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/08/29/hello-world/" class="article-date">
-  <time datetime="2019-08-29T11:18:26.051Z" itemprop="datePublished">2019-08-29</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/08/29/hello-world/">Hello World</a>
-    </h1>
-  
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+	<!--  fixed header  -->
+	<header class="header_fixed">
+		<div class="wrapper clearfix">
+			<a href="#"><img src="img/logo_white.png" alt="" title="" class="header_logo"/></a>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://Curry30np/Curry30np.github.io/2019/08/29/hello-world/" data-id="ck0da76b80000xcne3d2987qk" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
+			<nav class="clearfix">
+				<ul>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#testimonials">Testimonials</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+				<a href="#" class="hamburger fixed_nav" id="sitcky_menu">
+					<span class="top"></span>
+					<span class="middle left"></span>
+					<span class="middle right"></span>
+					<span class="bottom"></span>
+				</a>
+			</nav>
+		</div>
+	</header><!--  end fixed header  -->
 
 
-  
+	<!--  start billboard  -->
+	<section class="billboard">
+		
+		<!--  hero header  -->
+		<header class="hero_header">
+			<div class="wrapper clearfix">
+				<a href="#"><img src="img/header_logo.png" alt="" title="" class="header_logo"/></a>
+				
+
+				<nav class="clearfix">
+					<ul>
+						<li><a href="#services">Services</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#testimonials">Testimonials</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+					<a href="#" class="hamburger hero_nav" id="sitcky_menu">
+						<span class="top"></span>
+						<span class="middle left"></span>
+						<span class="middle right"></span>
+						<span class="bottom"></span>
+					</a>
+				</nav>
+			</div>
+		</header><!--  end hero header  -->
+
+		<div class="caption">
+			<h2>beautiful one page website template</h2>
+		</div>
+
+		<img src="img/scroll.png" alt="scroll" title="Scroll Down" class="scroll">
+
+	</section><!--  end billboard  -->
 
 
-</section>
-        
-          <aside id="sidebar">
-  
-    
+	<!--  start services  -->
+	<section class="services" id="services">
+		<div class="wrapper clearfix">
+			<article>
+				<div class="service_icon">
+					<img src="img/s1.png" alt="" title=""/>
+				</div>
+				<div class="service_info">
+					<h3 class="service_title">sociis natoque magnis.</h3>
+					<p class="service_desc">Consectetuer adipiscing elit nean commodo ligula eget dolor eneanero massa cum sociis natoque vel penatibus magnis montes.</p>
+				</div>
+			</article>
 
-  
-    
+			<article>
+				<div class="service_icon">
+					<img src="img/s2.png" alt="" title=""/>
+				</div>
+				<div class="service_info">
+					<h3 class="service_title">sociis natoque magnis.</h3>
+					<p class="service_desc">Consectetuer adipiscing elit nean commodo ligula eget dolor eneanero massa cum sociis natoque vel penatibus magnis montes.</p>
+				</div>
+			</article>
 
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/08/">August 2019</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2019/08/29/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2019 Yin Long Sheng<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+			<article>
+				<div class="service_icon">
+					<img src="img/s3.png" alt="" title=""/>
+				</div>
+				<div class="service_info">
+					<h3 class="service_title">sociis natoque magnis.</h3>
+					<p class="service_desc">Consectetuer adipiscing elit nean commodo ligula eget dolor eneanero massa cum sociis natoque vel penatibus magnis montes.</p>
+				</div>
+			</article>
+		</div>
+	</section><!--  end services  -->
 
 
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+	<!--  start about  -->
+	<section class="about" id="about">
+		<div class="wrapper clearfix">
+			<img src="img/logo_about.png">
+			<p class="about_txt">Uno is a free signle page html5/css3 website template, designed and developed exclusively by pixelhint with attention to details, Uno one page template is hand coded, well commented and organised code, Uno is free to use for for your personal and your client’s projects.</p>
+
+			<div class="timeline">
+				<hr class="hseparator"/>	
+				<div class="column">
+					<div class="right_row first">
+						<img src="img/timeline_cercle.png" alt="" title="" class="bullet_point"/>
+						<h2>Donec pede justo fringilla aliquet vulputate eget</h2>
+						<p>cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus.</p>
+					</div>	
+				</div>
+
+				<div class="column">
+					<div class="left_row">
+						<img src="img/timeline_cercle.png" alt="" title="" class="bullet_point"/>
+						<h2>Mauris vitae arcu in nibh faucibus vitae elit</h2>
+						<p>Nascetur ridiculus mus donec quam felis ultricies nec pellentesque pretium quis.</p>
+					</div>	
+				</div>
+				
+				<div class="column">
+					<div class="right_row">
+						<img src="img/timeline_cercle.png" alt="" title="" class="bullet_point"/>
+						<h2>Pellentesque in sapien sem commodo condimentum</h2>
+						<p>Nulla consequat massa quis enim donec pede justo fringilla vel nec vulputate eget arcu In enim justo.</p>
+					</div>	
+				</div>
+
+				<div class="column">
+					<div class="left_row last">
+						<img src="img/timeline_cercle.png" alt="" title="" class="bullet_point"/>
+						<h2>Vestibulum leo tempor mi vulputate auctor</h2>
+						<p>Maecenas sit amet lectus vestibulum suscipit velit eleifend tellus sliquam ornare odio tempus eleifend.</p>
+					</div>	
+				</div>
+
+			</div><!--  end timeline  -->
+
+		</div><!--  end wrapper  -->
+	</section><!--  end about  -->
+
+	<div class="tlinks">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
+	<!--  start portfolio  -->
+	<section class="portfolio clearfix" id="portfolio">
+		<div class="wrapper clearfix">
+			<h2 class="title">Portfolio<span>/  some project that we love</span></h2>
+			<div class="folio_wrapper">
+				<ul class='slides clearfix'>
+					<li>
+						<article>
+							<div class="shadow">
+								<div class="folio_info">
+									<a href="#">
+										<h2>Senenatis Vitae Justoctu Felis</h2>
+									</a>
+									<a href="#">
+										<h3>branding</h3>
+									</a>
+								</div>						
+							</div>
+							<a href="#">
+								<div class="folio_img">
+									<img src="img/folio1.jpg" alt="" title="">
+								</div>
+							</a>
+						</article>
+					</li>
+
+					<li>
+						<article>
+							<div class="shadow">
+								<div class="folio_info">
+									<a href="#">
+										<h2>Senenatis Vitae Justoctu Felis</h2>
+									</a>
+									<a href="#">
+										<h3>branding</h3>
+									</a>
+								</div>						
+							</div>
+							<a href="#">
+								<div class="folio_img">
+									<img src="img/folio2.jpg" alt="" title="">
+								</div>
+							</a>
+						</article>
+					</li>
+
+					<li>
+						<article>
+							<div class="shadow">
+								<div class="folio_info">
+									<a href="#">
+										<h2>Senenatis Vitae Justoctu Felis</h2>
+									</a>
+									<a href="#">
+										<h3>branding</h3>
+									</a>
+								</div>						
+							</div>
+							<a href="#">
+								<div class="folio_img">
+									<img src="img/folio3.jpg" alt="" title="">
+								</div>
+							</a>
+						</article>
+					</li>
+
+					<li>
+						<article>
+							<div class="shadow">
+								<div class="folio_info">
+									<a href="#">
+										<h2>Senenatis Vitae Justoctu Felis</h2>
+									</a>
+									<a href="#">
+										<h3>branding</h3>
+									</a>
+								</div>						
+							</div>
+							<a href="#">
+								<div class="folio_img">
+									<img src="img/folio4.jpg" alt="" title="">
+								</div>
+							</a>
+						</article>
+					</li>
+
+					<li>
+						<article>
+							<div class="shadow">
+								<div class="folio_info">
+									<a href="#">
+										<h2>Senenatis Vitae Justoctu Felis</h2>
+									</a>
+									<a href="#">
+										<h3>branding</h3>
+									</a>
+								</div>						
+							</div>
+							<a href="#">
+								<div class="folio_img">
+									<img src="img/folio1.jpg" alt="" title="">
+								</div>
+							</a>
+						</article>
+					</li>
+
+					<li>
+						<article>
+							<div class="shadow">
+								<div class="folio_info">
+									<a href="#">
+										<h2>Senenatis Vitae Justoctu Felis</h2>
+									</a>
+									<a href="#">
+										<h3>branding</h3>
+									</a>
+								</div>						
+							</div>
+							<a href="#">
+								<div class="folio_img">
+									<img src="img/folio2.jpg" alt="" title="">
+								</div>
+							</a>
+						</article>
+					</li>
+
+					<li>
+						<article>
+							<div class="shadow">
+								<div class="folio_info">
+									<a href="#">
+										<h2>Senenatis Vitae Justoctu Felis</h2>
+									</a>
+									<a href="#">
+										<h3>branding</h3>
+									</a>
+								</div>						
+							</div>
+							<a href="#">
+								<div class="folio_img">
+									<img src="img/folio3.jpg" alt="" title="">
+								</div>
+							</a>
+						</article>
+					</li>
+
+					<li>
+						<article>
+							<div class="shadow">
+								<div class="folio_info">
+									<a href="#">
+										<h2>Senenatis Vitae Justoctu Felis</h2>
+									</a>
+									<a href="#">
+										<h3>branding</h3>
+									</a>
+								</div>						
+							</div>
+							<a href="#">
+								<div class="folio_img">
+									<img src="img/folio4.jpg" alt="" title="">
+								</div>
+							</a>
+						</article>
+					</li>
+
+					<li>
+						<article>
+							<div class="shadow">
+								<div class="folio_info">
+									<a href="#">
+										<h2>Senenatis Vitae Justoctu Felis</h2>
+									</a>
+									<a href="#">
+										<h3>branding</h3>
+									</a>
+								</div>						
+							</div>
+							<a href="#">
+								<div class="folio_img">
+									<img src="img/folio1.jpg" alt="" title="">
+								</div>
+							</a>
+						</article>
+					</li>
+
+					<li>
+						<article>
+							<div class="shadow">
+								<div class="folio_info">
+									<a href="#">
+										<h2>Senenatis Vitae Justoctu Felis</h2>
+									</a>
+									<a href="#">
+										<h3>branding</h3>
+									</a>
+								</div>						
+							</div>
+							<a href="#">
+								<div class="folio_img">
+									<img src="img/folio2.jpg" alt="" title="">
+								</div>
+							</a>
+						</article>
+					</li>
+
+					<li>
+						<article>
+							<div class="shadow">
+								<div class="folio_info">
+									<a href="#">
+										<h2>Senenatis Vitae Justoctu Felis</h2>
+									</a>
+									<a href="#">
+										<h3>branding</h3>
+									</a>
+								</div>						
+							</div>
+							<a href="#">
+								<div class="folio_img">
+									<img src="img/folio3.jpg" alt="" title="">
+								</div>
+							</a>
+						</article>
+					</li>
+
+					<li>
+						<article>
+							<div class="shadow">
+								<div class="folio_info">
+									<a href="#">
+										<h2>Senenatis Vitae Justoctu Felis</h2>
+									</a>
+									<a href="#">
+										<h3>branding</h3>
+									</a>
+								</div>						
+							</div>
+							<a href="#">
+								<div class="folio_img">
+									<img src="img/folio4.jpg" alt="" title="">
+								</div>
+							</a>
+						</article>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</section><!--  end portfolio  -->
 
 
-<script src="/js/script.js"></script>
+	<!--  start testimonials  -->
+	<section class="testimonials" id="testimonials">
+		<div class="wrapper clearfix">
+			<h2 class="title">Testimonials<span>/  what our happy clients say about us</span></h2>
+			<div class="testimonials_wrapper">
+				<article>
+					<img src="img/quote.png" alt="" title="" class="quote">
+					<h4 class="author">Alex Doe</h4>
+					<div class="testimonial">
+						<span class="arrow"></span>
+						<p>Mauris sollicitudin velit nisl, sed mollis lorem commodo non. Aenean in mattis  Proin a vehicula eros Etiam malesuada odio nec tempor sollicitudin Integer convallis adipiscing accumsan Sed erat elit, facilisis at nisi quistum.</p>
+					</div>
+				</article>
+
+				<article>
+					<img src="img/quote.png" alt="" title="" class="quote">
+					<h4 class="author">Samantha doe</h4>
+					<div class="testimonial">
+						<span class="arrow"></span>
+						<p>Mauris sollicitudin velit nisl, sed mollis lorem commodo non. Aenean in mattis  Proin a vehicula eros Etiam malesuada odio nec tempor sollicitudin Integer convallis adipiscing accumsan Sed erat elit, facilisis at nisi quistum.</p>
+					</div>
+				</article>
+
+				<article>
+					<img src="img/quote.png" alt="" title="" class="quote">
+					<h4 class="author">Olivia Doe</h4>
+					<div class="testimonial">
+						<span class="arrow"></span>
+						<p>Mauris sollicitudin velit nisl, sed mollis lorem commodo non. Aenean in mattis  Proin a vehicula eros Etiam malesuada odio nec tempor sollicitudin Integer convallis adipiscing accumsan Sed erat elit, facilisis at nisi quistum.</p>
+					</div>
+				</article>
+			</div>	
+		</div>
+	</section><!--  ennd testimonials  -->
 
 
+	<!--  start contact  -->
+	<section class="contact" id="contact">
+		<img src="img/contact_icon.png" alt="" title=""/>
+		<h2 class="title">Ready to talk business?</h2>
+		<hr/>
+		<p class="email">contact@uno.com</p>
+		<p class="phone">+718 749 1714</p>
+	</section><!--  end contact  -->
 
-  </div>
+
+	<!--  start footer  -->
+	<footer>
+		<div class="wrapper clearfix">
+			<div class="copyrights">
+				<img src="img/logo_footer.png" alt="" title=""/>
+				<p>uno © All Rights Reserved, More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+			</div>
+
+			<div class="social">
+				<ul>
+					<li><a href="#">facebook</a></li>
+					<li><a href="#">twitter</a></li>
+					<li><a href="#">google+</a></li>
+					<li><a href="#">dribbble</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer><!--  end footer  -->
+
 </body>
 </html>
